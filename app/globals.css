@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    /* Default styles */
+.bg-white {
+    background-color: #ffffff;
+  }
+  
+  .text-black {
+    color: #000000;
+  }
+  
+  .selection {
+    background-color: #ffffff; /* Default background color for selection */
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+  /* Dark mode styles */
+  .dark\:bg-gray-900 {
+    background-color: #1a202c; /* Dark mode background color */
+  }
+  
+  .dark\:text-white {
+    color: #ffffff; /* Dark mode text color */
+  }
+  
+  .dark\:selection\:bg-gray-900 {
+    background-color: #1a202c; /* Dark mode background color for selection */
+  }
+  
+  .selection\:bg-gray-50 {
+    background-color: #f9fafb; /* Default background color for selection */
+  }
+  
+    
+}
